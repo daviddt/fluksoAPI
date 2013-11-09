@@ -51,7 +51,7 @@ class Flukso {
 if(isset($_GET['sensorid']) && !empty($_GET['sensorid'])){
     if(isset($_GET['token']) && !empty($_GET['token'])){
 
-    	$fluksodata = new Flukso($_GET["sensorid"], $_GET["token"], $_GET["interval"], $token = $_GET["unit"]);
+    	$fluksodata = new Flukso($_GET["sensorid"], $_GET["token"], $_GET["interval"], $_GET["unit"]);
     	echo ($fluksodata); // dit is al json
 	   
 	} else {
