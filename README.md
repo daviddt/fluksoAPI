@@ -13,7 +13,10 @@ Dit JSON object kan je makkelijk ophalen met AJAX, als je jQuery gebruikt kan da
 
 Parameters:
 
-  sensorid (verplicht) token (verplicht) interval (optioneel) unit (optineel)
+  sensorid (verplicht) 
+  token (verplicht) 
+  interval (optioneel) 
+  unit (optineel)
 
 Voorbeeld call:
 
@@ -25,8 +28,15 @@ Voorbeeld call met optionele parameters:
 
 Opties voor interval:
 
-  hour, day, month, year, night
+  hour, 
+  day, 
+  month, 
+  year, 
+  night
 
 Opties voor unit:
 
-  watt, kwhperyear, eurperyear, audperyear
+  watt, 
+  kwhperyear,
+  eurperyear, 
+  audperyear
